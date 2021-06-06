@@ -21,10 +21,10 @@ storageOptions:
   LOG_FOLDER: data/log
 
 # If not provided, local audio should work
-audioSourceType: YOUTUBE
-audioSourceOptions:
-  # This can be obtained from here: https://developers.google.com/youtube/v3/getting-started
-  API_KEY: ${YOUTUBE_API_KEY}
+# audioSourceType: YOUTUBE
+# audioSourceOptions:
+#   # This can be obtained from here: https://developers.google.com/youtube/v3/getting-started
+#   API_KEY: ${YOUTUBE_API_KEY}
 
 # How long blocking workers can go for (in ns)
 workerExecuteTime: 1200000000000

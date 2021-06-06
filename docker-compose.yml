@@ -6,7 +6,7 @@ services:
     networks:
       - internal
     ports:
-      - 8080:8080
+      - 8087:8080
     env_file:
       - .env
     volumes:
